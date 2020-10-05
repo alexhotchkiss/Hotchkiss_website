@@ -1,0 +1,27 @@
+/* =============
+    section1
+============= */
+
+#section-1{
+    background-color: $red;
+
+    #section-1-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "img" "h1" "h2" "h3" "h4";
+                
+        section{
+            #section-1-content{
+
+                h1{
+                    grid-area: "h1";
+                }
+                
+                background-image: url("../img/section-1/LionsDen.png");
+                background-repeat: no-repeat;
+                background-size: 265px;
+            }
+        }
+    }
+} 
