@@ -30,6 +30,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section-2/kbell.jpg": {
+		"ft": 16384,
+		"iS": 144737,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/kbell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-2/kbell.png": {
+		"ft": 32768,
+		"iS": 428766,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/kbell.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

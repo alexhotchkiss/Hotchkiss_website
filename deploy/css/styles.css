@@ -387,7 +387,7 @@ h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
-  font-size: 16pt;
+  font-size: 15pt;
   color: white;
 }
 
@@ -433,23 +433,29 @@ textarea {
   background-color: #BD3A3A;
 }
 #section-1 #section-1-container {
+  background-image: url("../img/section-1/LionsDen.png");
+  background-repeat: no-repeat;
+  background-size: 265px;
+  padding: 35px;
+  padding-left: 400px;
+}
+#section-1 #section-1-container section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "img" "h1" "h2" "h3" "h4";
 }
-#section-1 #section-1-container section #section-1-content {
-  background-image: url("../img/section-1/LionsDen.png");
-  background-repeat: no-repeat;
-  background-size: 265px;
-}
-#section-1 #section-1-container section #section-1-content h1 {
-  grid-area: "h1";
+#section-1 #section-1-container section h1, #section-1 #section-1-container section h2, #section-1 #section-1-container section h3, #section-1 #section-1-container section h4 {
+  padding-top: 5px;
 }
 
 /* =============
-    Demo
+    section-2
 ============= */
+#section-2 img {
+  height: 681px;
+}
+
 /* =============
     Demo
 ============= */
