@@ -396,6 +396,13 @@ p {
   padding: 0;
 }
 
+#footer h1 {
+  font-size: 31.5pt;
+}
+#footer h2 {
+  font-size: 28pt;
+}
+
 /* =============
     Buttons
 ============= */
@@ -426,6 +433,37 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  display: grid;
+}
+#footer section div {
+  background-color: black;
+  height: 140.5px;
+  margin: 0;
+}
+#footer section div h1 {
+  line-height: 200px;
+  text-align: center;
+}
+#footer section hr {
+  border: 0.5px white;
+  width: 2px;
+}
+#footer section #redbox {
+  padding-top: 20px;
+}
+#footer section #redbox h2 {
+  display: grid;
+  border: solid #BD3A3A;
+  background-color: #BD3A3A;
+  height: 90px;
+  width: 529px;
+  margin: auto;
+  text-align: center;
+  line-height: 95px;
+  border-radius: 10px;
+}
+
 /* =============
     section1
 ============= */
@@ -453,7 +491,7 @@ textarea {
     section-2
 ============= */
 #section-2 img {
-  height: 681px;
+  height: 673.7px;
 }
 
 /* =============

@@ -71,6 +71,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/footer.html",
+		"oF": 0
+		},
 	"/dev/content/section-1.kit": {
 		"cB": 0,
 		"ft": 2048,
