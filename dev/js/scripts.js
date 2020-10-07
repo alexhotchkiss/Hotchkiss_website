@@ -1,3 +1,7 @@
-import * as Demo from './demo.js';
+// import {gsap} from "gsap";
 
-console.log(Demo);
+import {section2Animation} from "./sections/section-2.js"
+import {section3Animation} from "./sections/section-3.js"
+
+section2Animation();
+section3Animation();

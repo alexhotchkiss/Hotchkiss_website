@@ -1,3 +1,53 @@
 /* =============
-    Demo
+    section-3
 ============= */
+
+#section-3{
+    br{
+        line-height: 200px;
+    }
+
+    #top{
+        text-align: center;
+        padding-top: 80px ;
+    }
+    #bottom{
+        br{
+            line-height: 160px;
+        }
+        #box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            border-top: 3px solid $red;
+            width: 1280px;
+            padding-left: 0px;
+            margin-left: 60px;
+            margin-top: 55px;
+            p{
+                display: grid;
+                padding-top: 20px;
+                grid-template-columns: 250% auto;
+                padding-left: 330px;
+            }
+        }
+        #img1{
+            position: absolute;
+            visibility: 0;
+            left: 125px;
+            top: 1258px;
+        }
+        #img2{
+            position: absolute;
+            visibility: 0;
+            left: 145px;
+            top: 1607px;
+        }
+        #img3{
+            position: absolute;
+            visibility: 0;
+            left: 145px;
+            top: 2007px;
+        }
+    }
+}

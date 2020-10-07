@@ -4,6 +4,21 @@
 
 #section-2{
     img{
-        height: 673.7px;
+        width: 100%;
+        display:inline-block;
+        *display:inline;zoom:1;
+        margin:0px;outline:none;
+        vertical-align: top;
+    }
+    #text{
+        background-color: black;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
     }
 }

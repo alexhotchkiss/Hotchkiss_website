@@ -396,6 +396,40 @@ p {
   padding: 0;
 }
 
+#section-2 h1 {
+  font-size: 32pt;
+}
+#section-2 p {
+  display: grid;
+  grid-template-columns: 80% auto;
+  color: white;
+  font-size: 16pt;
+  font-family: Helvetica, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 200px;
+  padding-bottom: 20px;
+}
+#section-2 h2 {
+  font-size: 20pt;
+  background-clip: padding-box;
+  background-color: #BD3A3A;
+  width: 525px;
+  height: 38px;
+  margin-left: 440px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#section-3 h1 {
+  color: black;
+  font-size: 45pt;
+}
+#section-3 p {
+  font-family: Helvetica, sans-serif;
+  font-size: 24pt;
+}
+
 #footer h1 {
   font-size: 31.5pt;
 }
@@ -445,10 +479,6 @@ textarea {
   line-height: 200px;
   text-align: center;
 }
-#footer section hr {
-  border: 0.5px white;
-  width: 2px;
-}
 #footer section #redbox {
   padding-top: 20px;
 }
@@ -475,7 +505,8 @@ textarea {
   background-repeat: no-repeat;
   background-size: 265px;
   padding: 35px;
-  padding-left: 400px;
+  padding-left: 450px;
+  margin-left: 0px;
 }
 #section-1 #section-1-container section {
   display: grid;
@@ -491,9 +522,70 @@ textarea {
     section-2
 ============= */
 #section-2 img {
-  height: 673.7px;
+  width: 100%;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin: 0px;
+  outline: none;
+  vertical-align: top;
+}
+#section-2 #text {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#section-2 #text h1 {
+  text-align: center;
+}
+#section-2 #text h2 {
+  text-align: center;
 }
 
 /* =============
-    Demo
+    section-3
 ============= */
+#section-3 br {
+  line-height: 200px;
+}
+#section-3 #top {
+  text-align: center;
+  padding-top: 80px;
+}
+#section-3 #bottom br {
+  line-height: 160px;
+}
+#section-3 #bottom #box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  border-top: 3px solid #BD3A3A;
+  width: 1280px;
+  padding-left: 0px;
+  margin-left: 60px;
+  margin-top: 55px;
+}
+#section-3 #bottom #box p {
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: 250% auto;
+  padding-left: 330px;
+}
+#section-3 #bottom #img1 {
+  position: absolute;
+  visibility: 0;
+  left: 125px;
+  top: 1258px;
+}
+#section-3 #bottom #img2 {
+  position: absolute;
+  visibility: 0;
+  left: 145px;
+  top: 1607px;
+}
+#section-3 #bottom #img3 {
+  position: absolute;
+  visibility: 0;
+  left: 145px;
+  top: 2007px;
+}

@@ -13,6 +13,43 @@ p{
     margin: 0;
     padding: 0;
 }
+#section-2{
+    h1{
+        font-size: 32pt;
+    }
+    p{
+        display: grid;
+        grid-template-columns: 80% auto;
+        color: white;
+        font-size: 16pt;
+        font-family: Helvetica, sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 200px;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 20pt;
+        background-clip: padding-box;
+        background-color: $red;
+        width: 525px;
+        height: 38px;
+        margin-left: 440px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+#section-3{
+    h1{
+        color: black;
+        font-size: 45pt;
+    }
+    p{
+        font-family: Helvetica, sans-serif;
+        font-size: 24pt;
+    }
+}
 
 #footer{
     h1{
