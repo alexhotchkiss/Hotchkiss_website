@@ -5,10 +5,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section3TL = gsap.timeline()
 
-section3TL.from("#bottom #img1",{duration: 0.5, alpha: 0, rotation: 180})
-        .from("#bottom #img2",{duration: 0.5, alpha: 0, rotation: -180})
-        .from("#bottom #img3",{duration: 0.5, alpha: 0, rotation: 180})
-        .from("#bottom #box",{duration: 0.6, alpha: 0, x: 900});
+section3TL.from("#bottom #img1",{duration: 1, alpha: 0, rotation: 180})
+        .from("#bottom #img2",{duration: 1, alpha: 0, rotation: -180})
+        .from("#bottom #img3",{duration: 1, alpha: 0, rotation: 180})
+        .from("#bottom #box",{duration: 0.7, alpha: 0, x: 900});
 
 export function section3Animation(){
     ScrollTrigger.create({

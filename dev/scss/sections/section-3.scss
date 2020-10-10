@@ -12,18 +12,19 @@
         padding-top: 80px ;
     }
     #bottom{
-        br{
-            line-height: 160px;
-        }
+        padding-bottom: 200px;
         #box{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
             border-top: 3px solid $red;
             width: 1280px;
+            height: 100px;
             padding-left: 0px;
             margin-left: 60px;
-            margin-top: 55px;
+            margin-top: 130px;
+            padding-bottom: 20px;
+
             p{
                 display: grid;
                 padding-top: 20px;
@@ -34,20 +35,20 @@
         #img1{
             position: absolute;
             visibility: 0;
-            left: 125px;
-            top: 1258px;
+            left: 145px;
+            top: 1320px;
         }
         #img2{
             position: absolute;
             visibility: 0;
             left: 145px;
-            top: 1607px;
+            top: 1590px;
         }
         #img3{
             position: absolute;
             visibility: 0;
             left: 145px;
-            top: 2007px;
+            top: 1875px;
         }
     }
 }

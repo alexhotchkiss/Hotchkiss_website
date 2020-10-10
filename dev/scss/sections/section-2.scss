@@ -16,9 +16,17 @@
         padding-bottom: 30px;
         h1{
             text-align: center;
+            color: white;
         }
         h2{
             text-align: center;
+            background-clip: padding-box;
+            background-color: $red;
+            width: 525px;
+            height: 38px;
+            margin-left: 440px;
+            margin-top: 10px;
+            padding-top: 10px;
         }
     }
 }

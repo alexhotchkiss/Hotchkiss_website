@@ -412,13 +412,6 @@ p {
 }
 #section-2 h2 {
   font-size: 20pt;
-  background-clip: padding-box;
-  background-color: #BD3A3A;
-  width: 525px;
-  height: 38px;
-  margin-left: 440px;
-  margin-top: 10px;
-  padding-top: 10px;
 }
 
 #section-3 h1 {
@@ -427,7 +420,7 @@ p {
 }
 #section-3 p {
   font-family: Helvetica, sans-serif;
-  font-size: 24pt;
+  font-size: 18pt;
 }
 
 #footer h1 {
@@ -537,9 +530,17 @@ textarea {
 }
 #section-2 #text h1 {
   text-align: center;
+  color: white;
 }
 #section-2 #text h2 {
   text-align: center;
+  background-clip: padding-box;
+  background-color: #BD3A3A;
+  width: 525px;
+  height: 38px;
+  margin-left: 440px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 /* =============
@@ -552,8 +553,8 @@ textarea {
   text-align: center;
   padding-top: 80px;
 }
-#section-3 #bottom br {
-  line-height: 160px;
+#section-3 #bottom {
+  padding-bottom: 200px;
 }
 #section-3 #bottom #box {
   display: grid;
@@ -561,9 +562,11 @@ textarea {
   grid-template-rows: 1fr;
   border-top: 3px solid #BD3A3A;
   width: 1280px;
+  height: 100px;
   padding-left: 0px;
   margin-left: 60px;
-  margin-top: 55px;
+  margin-top: 130px;
+  padding-bottom: 20px;
 }
 #section-3 #bottom #box p {
   display: grid;
@@ -574,18 +577,18 @@ textarea {
 #section-3 #bottom #img1 {
   position: absolute;
   visibility: 0;
-  left: 125px;
-  top: 1258px;
+  left: 145px;
+  top: 1320px;
 }
 #section-3 #bottom #img2 {
   position: absolute;
   visibility: 0;
   left: 145px;
-  top: 1607px;
+  top: 1590px;
 }
 #section-3 #bottom #img3 {
   position: absolute;
   visibility: 0;
   left: 145px;
-  top: 2007px;
+  top: 1875px;
 }
