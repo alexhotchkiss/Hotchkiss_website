@@ -176,19 +176,8 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/section-2-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/section-2-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/dev/js/sections/section-2.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,

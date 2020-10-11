@@ -427,7 +427,7 @@ p {
   font-size: 31.5pt;
 }
 #footer h2 {
-  font-size: 28pt;
+  font-size: 20pt;
 }
 
 /* =============
@@ -530,7 +530,6 @@ textarea {
 }
 #section-2 #text h1 {
   text-align: center;
-  color: white;
 }
 #section-2 #text h2 {
   text-align: center;
@@ -542,7 +541,6 @@ textarea {
   margin-top: 10px;
   padding-top: 10px;
 }
-
 /* =============
     section-3
 ============= */
@@ -566,7 +564,7 @@ textarea {
   padding-left: 0px;
   margin-left: 60px;
   margin-top: 130px;
-  padding-bottom: 20px;
+  padding-bottom: 90px;
 }
 #section-3 #bottom #box p {
   display: grid;
@@ -584,11 +582,11 @@ textarea {
   position: absolute;
   visibility: 0;
   left: 145px;
-  top: 1590px;
+  top: 1670px;
 }
 #section-3 #bottom #img3 {
   position: absolute;
   visibility: 0;
   left: 145px;
-  top: 1875px;
+  top: 2020px;
 }
